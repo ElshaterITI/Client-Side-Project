@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Oxygen', sans-serif;
+    --primary: #bb86fc;
+    --secondary: #3700B3;
+}
+
+.container{
+    padding: 20px;
+}

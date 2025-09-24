@@ -1,0 +1,152 @@
+.category-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-header,
+.category-text {
+    text-align: center;
+}
+
+.category-tile-section {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.portrait-tile {
+    max-width: 392px;
+    max-height: 513px;
+    overflow: hidden;
+}
+
+.landscape {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.landscape-tile {
+    max-width: 392px;
+    max-height: calc((513px / 2) - 10px);
+    overflow: hidden;
+}
+
+.category-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.category-name {
+    position: absolute;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 0, 0, 0),
+        rgba(0, 0, 0, 1)
+    );
+    padding: 10px 15px;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    transition: bottom 0.4s ease-in-out;
+}
+
+.category-tile:hover .category-name {
+    bottom: 0;
+}
+
+.category-tile {
+    position: relative;
+}
+
+/*product part*/
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-card-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow: hidden;
+    max-height: 360px;
+    max-width: 286px;
+    padding: 10px;
+    border: 1px gray solid;
+    background-color: white;
+    border-radius: 10px;
+}
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.price-and-favorite-icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fav-icon {
+    width: 32px;
+    height: 32px;
+    fill: rgb(252, 67, 67);
+    cursor: pointer;
+}
+
+.fav-icon:hover {
+    transition: all 0.4s ease-in-out;
+    fill: rgb(253, 0, 0);
+}
+
+.product-pre-offer-price {
+    text-decoration: line-through;
+}
+
+/*Partners section*/
+
+.partner-companies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eee;
+    margin-top: 16px;
+}
+
+.partner-companies::before{
+    content: "Our Partners";
+    font-size: 40px;
+}
+.partner-container{
+    max-width: 200px;
+}
+
+.partner-img{
+    width: 100%;
+}

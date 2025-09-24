@@ -1,0 +1,63 @@
+@import url(./global.css);
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    background: url("../assests/index-page/hero-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    padding: 210px;
+    height: calc(100vh - 76px);
+}
+
+
+
+.hero-header {
+    font-size: 45px;
+    text-align: center;
+}
+
+.hero-text {
+    text-align: center;
+    width: 50%;
+}
+
+.hero-header, .hero-text{
+    text-shadow: 1px 1px  1px black;
+}
+
+.search-bar-container {
+    display: flex;
+    position: relative;
+}
+
+.search-bar-input {
+    background-color: #575757;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 12px;
+    min-width: 250px;
+}
+.search-bar-container button {
+    border: none;
+}
+
+.hero-search-icon {
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+    fill: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    bottom: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+
+

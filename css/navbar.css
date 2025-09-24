@@ -1,0 +1,46 @@
+@import url(global.css);
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+}
+
+.main-logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.navigation-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation-item{
+    padding:5px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.main-icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-icon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    fill: white;
+}
+
+.navigation-item:hover {
+    border-bottom: 2px solid white;
+}
