@@ -1,0 +1,96 @@
+
+main {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    margin-block: 20px;
+}
+
+.personal-info-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.personal-info-form-container {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.name-container,  .email-and-phone-container{
+    display: flex;
+    gap: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input-field {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-container {
+    flex: 1;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.cart-details-table{
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    table-layout: auto;
+}
+
+.cart-details-table th,
+.cart-details-table td {
+    border-bottom: 4px dashed #a6a6a6;
+    padding: 50px;
+    text-align: left;
+}
+
+.cart-details-table th {
+    background-color: #a6a6a6;
+    font-weight: bold;
+}
+
+.product-listing td, .subtotal-amount, .total-amount, .shipping-amount {
+    color: #bababa;
+}
+
+.product-quantity {
+    text-align: center;
+}

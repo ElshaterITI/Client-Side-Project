@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Minimart</title>
+        <link
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../css/global.css" />
+        <link rel="stylesheet" href="../css/checkout.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
+        <link rel="stylesheet" href="../css/navbar.css" />
+    </head>
+    <body>
+        <nav class="container">
+            <div class="main-logo">Mini Mart</div>
+            <ul class="navigation-item-container">
+                <li class="navigation-item">Home</li>
+                <li class="navigation-item">Categories</li>
+                <li class="navigation-item">Products</li>
+                <li class="navigation-item">About Us</li>
+            </ul>
+            <div class="main-icon-container">
+                <svg
+                    class="main-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"
+                >
+                    <path
+                        d="M305 151.1L320 171.8L335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1L576 231.7C576 343.9 436.1 474.2 363.1 529.9C350.7 539.3 335.5 544 320 544C304.5 544 289.2 539.4 276.9 529.9C203.9 474.2 64 343.9 64 231.7L64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1z"
+                    />
+                </svg>
+                <svg
+                    class="main-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"
+                >
+                    <path
+                        d="M24 48C10.7 48 0 58.7 0 72C0 85.3 10.7 96 24 96L69.3 96C73.2 96 76.5 98.8 77.2 102.6L129.3 388.9C135.5 423.1 165.3 448 200.1 448L456 448C469.3 448 480 437.3 480 424C480 410.7 469.3 400 456 400L200.1 400C188.5 400 178.6 391.7 176.5 380.3L171.4 352L475 352C505.8 352 532.2 330.1 537.9 299.8L568.9 133.9C572.6 114.2 557.5 96 537.4 96L124.7 96L124.3 94C119.5 67.4 96.3 48 69.2 48L24 48zM208 576C234.5 576 256 554.5 256 528C256 501.5 234.5 480 208 480C181.5 480 160 501.5 160 528C160 554.5 181.5 576 208 576zM432 576C458.5 576 480 554.5 480 528C480 501.5 458.5 480 432 480C405.5 480 384 501.5 384 528C384 554.5 405.5 576 432 576z"
+                    />
+                </svg>
+                <svg
+                    class="main-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"
+                >
+                    <path
+                        d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"
+                    />
+                </svg>
+            </div>
+        </nav>
+        <main class="container">
+            <div class="personal-info-form-container">
+                <form class="personal-info-form">
+                    <h1 class="form-header">Personal Information</h1>
+                    <div class="name-container">
+                        <div class="first-name-container input-container">
+                            <label for="first-name">First Name</label>
+                            <input
+                                id="first-name"
+                                type="text"
+                                placeholder="First Name"
+                                class="input-field"
+                            />
+                        </div>
+                        <div class="last-name-container input-container">
+                            <label for="last-name">Last Name</label>
+                            <input
+                                id="last-name"
+                                type="text"
+                                placeholder="Last Name"
+                                class="input-field"
+                            />
+                        </div>
+                    </div>
+                    <div class="email-and-phone-container">
+                        <div class="email-container input-container">
+                            <label for="email">Email</label>
+                            <input
+                                id="email"
+                                type="email"
+                                placeholder="example@email.com"
+                                class="input-field"
+                            />
+                        </div>
+                        <div class="phone-container input-container">
+                            <label for="phone">Phone</label>
+                            <input
+                                id="phone"
+                                type="tel"
+                                placeholder="+1 234 567 8901"
+                                class="input-field"
+                            />
+                        </div>
+                    </div>
+                    <div class="street-address-container input-container">
+                        <label for="street-address">Street Address</label>
+                        <input
+                            id="street-address"
+                            type="text"
+                            placeholder="1234 Main St"
+                            class="input-field"
+                        />
+                    </div>
+                    <div class="town-city-container input-container">
+                        <label for="town-city">Town / City</label>
+                        <input
+                            id="town-city"
+                            type="text"
+                            placeholder="City"
+                            class="input-field"
+                        />
+                    </div>
+                    <div class="country input-container">
+                        <label for="country">Country</label>
+                        <input
+                            id="country"
+                            type="text"
+                            placeholder="Country"
+                            class="input-field"
+                        />
+                    </div>
+                    <div class="postcode-zip input-container">
+                        <label for="postcode-zip">Postcode / ZIP</label>
+                        <input
+                            id="postcode-zip"
+                            type="text"
+                            placeholder="Postcode / ZIP"
+                            class="input-field"
+                        />
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="submit-button">
+                            Proceed
+                        </button>
+                        <button type="reset" class="reset-button">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div class="cart-details-container">
+                <table class="cart-details-table">
+                    <tr class="header-row">
+                        <th class="header-name">Product</th>
+                        <th class="header-name">Quantity</th>
+                        <th class="header-name">Sub-Total</th>
+                    </tr>
+                    <tr class="product-listing">
+                        <td class="products-name-cell">
+                            <div class="product-name-container">
+                                <p class="product-name">Product1</p>
+                                <p class="product-name">Product2</p>
+                                <p class="product-name">Product3</p>
+                            </div>
+                        </td>
+                        <td class="product-quantity-cell">
+                            <div class="product-quantity-container">
+                                <p class="product-quantity">1</p>
+                                <p class="product-quantity">2</p>
+                                <p class="product-quantity">1</p>
+                            </div>
+                        </td>
+                        <td class="product-subtotal-cell">
+                            <div class="product-subtotal-container">
+                                <p class="product-subtotal">$10.00</p>
+                                <p class="product-subtotal">$20.00</p>
+                                <p class="product-subtotal">$15.00</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="subtotal-row">
+                        <td colspan="2" class="subtotal-row-header">
+                            Subtotal
+                        </td>
+                        <td class="subtotal-amount">$45.00</td>
+                    </tr>
+                    <tr class="shipping-row">
+                        <td colspan="2" class="shipping-row-header">
+                            Shipping
+                        </td>
+                        <td class="shipping-amount">$100.00</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="2" class="total-row-header">Total</td>
+                        <td class="total-amount">$145.00</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div class="news-letter container">
+                <h1 class="news-letter-header">
+                    Subscribe To Your Newsletter to Stay Updated About Discounts
+                </h1>
+                <form class="email-form">
+                    <div class="email-container">
+                        <input
+                            class="email-input"
+                            type="email"
+                            placeholder="person@email.com"
+                        />
+                        <button type="submit">
+                            <svg
+                                class="send-email-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 640 640"
+                            >
+                                <path
+                                    d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="footer-menu-container container">
+                <!-- About Us Section -->
+                <div class="footer-menu-partition">
+                    <p class="footer-menu-partition-header">About Us</p>
+                    <div class="footer-menu-partition-element-container">
+                        <p class="footer-menu-partition-element">
+                            <a href="/about">Company</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/team">Our Team</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/careers">Careers</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Services Section -->
+                <div class="footer-menu-partition">
+                    <p class="footer-menu-partition-header">Services</p>
+                    <div class="footer-menu-partition-element-container">
+                        <p class="footer-menu-partition-element">
+                            <a href="/services/web-development"
+                                >Web Development</a
+                            >
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/services/mobile-apps">Mobile Apps</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/services/ui-ux">UI/UX Design</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/services/cloud">Cloud Solutions</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/services/consulting">Consulting</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Resources Section -->
+                <div class="footer-menu-partition">
+                    <p class="footer-menu-partition-header">Resources</p>
+                    <div class="footer-menu-partition-element-container">
+                        <p class="footer-menu-partition-element">
+                            <a href="/blog">Blog</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/case-studies">Case Studies</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/ebooks">eBooks</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/faq">FAQs</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/support">Support</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Legal Section -->
+                <div class="footer-menu-partition">
+                    <p class="footer-menu-partition-header">Legal</p>
+                    <div class="footer-menu-partition-element-container">
+                        <p class="footer-menu-partition-element">
+                            <a href="/privacy-policy">Privacy Policy</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/terms">Terms of Service</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/cookies">Cookie Policy</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/security">Security</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/compliance">Compliance</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="footer-menu-partition">
+                    <p class="footer-menu-partition-header">Contact</p>
+                    <div class="footer-menu-partition-element-container">
+                        <p class="footer-menu-partition-element">
+                            <a href="/contact">Contact Us</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/locations">Our Locations</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="mailto:support@example.com"
+                                >Email Support</a
+                            >
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/partnerships">Partnerships</a>
+                        </p>
+                        <p class="footer-menu-partition-element">
+                            <a href="/careers">Join Our Team</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+            <p>Copyright © 2023 Renew Bariatrics, Inc</p>
+        </footer>
+    </body>
+</html>
