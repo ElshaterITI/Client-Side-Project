@@ -7,6 +7,7 @@ nav{
     color: white;
 }
 
+
 .main-logo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -24,7 +25,11 @@ nav{
 .navigation-item{
     padding:5px;
     list-style-type: none;
-    cursor: pointer;
+}
+
+.navigation-item a{
+    text-decoration: none;
+    color: white;
 }
 
 .main-icon-container{

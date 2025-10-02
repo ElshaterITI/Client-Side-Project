@@ -69,11 +69,35 @@
 
 /*product part*/
 
+
 .product-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
+
+.featured-products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.see-more-btn {
+    background-color: transparent;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 1px black solid;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition:  0.3s;
+}
+
+.see-more-btn:hover {
+    background-color: #636363;
+    color: white;
+}
+
 
 .product-card-container {
     display: flex;
@@ -102,32 +126,50 @@
     cursor: pointer;
 }
 
-.price-and-favorite-icon-container {
+
+.price-and-actions-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 10px;
 }
-
 .price {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.product-actions {
+    display: flex;
+    gap: 10px;
+}
+.cart-plus-icon {
+    width: 32px;
+    height: 32px;
+    fill: rgb(0, 139, 0);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.cart-plus-icon:hover {
+    fill: rgb(0, 200, 0);
+}
 .fav-icon {
     width: 32px;
     height: 32px;
-    fill: rgb(252, 67, 67);
+    fill: rgb(252, 115, 115);
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 
 .fav-icon:hover {
-    transition: all 0.4s ease-in-out;
     fill: rgb(253, 0, 0);
 }
 
 .product-pre-offer-price {
     text-decoration: line-through;
 }
+
+
 
 /*Partners section*/
 
