@@ -10,6 +10,9 @@
     --primary: #bb86fc;
     --secondary: #3700b3;
 }
+body{
+    position: relative;
+}
 .container {
     padding-inline: 75px;
     padding-block: 20px;

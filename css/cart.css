@@ -112,6 +112,11 @@ td{
     font-weight: bold;
 }
 
+.checkout-btn:hover{
+    background-color: goldenrod;
+    transition: 0.4s ease;
+}
+
 .checkout-btn a{
     color: white;
     text-decoration: none;
